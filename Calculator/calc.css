@@ -1,0 +1,51 @@
+body {
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+#calcbox {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 400px;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+  background-color: bisque;
+}
+#innerbox {
+  margin: 2px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+#input {
+  height: 60px;
+  width: 90%;
+  margin: 22px 16px 16px 16px;
+  font-size: 20px;
+}
+#wrap {
+  padding: 5px;
+}
+#number {
+  display: inline-block;
+  width: 50%;
+  margin-left: 10px;
+}
+#operations {
+  display: inline-block;
+  width: 30%;
+  margin-left: 50px;
+}
+#blankdiv {
+  display: inline-block;
+}
+.numbers {
+  font-size: 30px;
+  height: 50px;
+  width: 50px;
+  margin: 2px;
+}
